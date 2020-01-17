@@ -4,59 +4,169 @@
 
 body {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: Helvetica;
   font-size: 10px;
 }
 
 .container {
-  margin: 0 auto;
-  width: 420px;
-
-  background-color: #DADADA;
+  margin: 100px;
+  padding-top: 3px;
+  width: 375px;
+  height: 812px;
+  background-color: #fff;
 }
 
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-  background-color: black;
+.sta-bar {
+  width: 375px;
+  height: 25px;
+  padding-right: 1%;
 }
 
-.restaurant-list h1 {
-  font-size: 1.5em;
+.battery {
+  float: right;
+  color: #6d6d6d;
+  display: inline-block;
+  padding: 4px;
+}
+
+.wifi {
+  float: right;
+  color: #6d6d6d;
+  display: inline-block;
+  padding: 4px;
+}
+
+.signal {
+  float: right;
+  color: #6d6d6d;
+  display: inline-block;
+  padding: 4px;
+}
+
+.time {
+  float: left;
+  color: #6d6d6d;
+  display: inline-block;
+  padding: 6px;
+  margin-left: 20px;
+}
+
+.time h4 {
+ font-size: 1.2em;
+}
+
+.bus-stop {
+  width: 375px;
+  height: 50px;
+  background-color: #2EA19A;
+}
+
+.arrow-left {
+  width: 10%;
+  padding: 15px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.bus-stop h1 {
+  font-size: 2.5em;
   font-weight: 900;
+  color: #fff;
 }
 
-.restaurant-list h3 {
-  font-size: 1.3em;
-  line-height: 1.5;
+.content1 {
+  display: inline-block;
 }
 
-.restaurant-list {
-  padding: 50px 0 0 0;
+.search {
+  width: 375px;
+  height: 40px;
+  background-color: #2EA19A;
 }
 
-.location {
+input {
+  width: 75%;
+  height: 30px;
+  margin-right: 40px;
+  border: none;
+  border-radius: 6px;
+  float: right;
+}
+
+.s-icon {
+  color: #fff;
+  width: 20px;
+  display: inline-block;
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.busroute {
+  width: 375px;
+  height: 70px;
   border-bottom: 1px solid #ADADAD;
-  display: block;
 }
 
-.location:hover {
+.busroute:hover {
   background-color: #979797;
 }
 
 .content {
-  width: 80%;
+  width: 90%;
   padding: 5%;
   display: inline-block;
 }
 
-.arrow {
-  width: 20%;
-  padding: 6%;
-  float: right;
+.bus h1 {
+  font-size: 2em;
+  font-weight: 900;
+  color: #2EA19A;
 }
+
+.bus h3 {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+.reroute {
+  width: 375px;
+  height: 70px;
+  border-bottom: 1px solid #ADADAD;
+}
+
+.reroute h1 {
+  font-size: 2em;
+  font-weight: 900;
+  color: #6d6d6d;
+}
+
+.reroute h3 {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #6d6d6d;
+}
+
+.label {
+  padding-left: 5%;
+  padding-top: 12px;
+}
+
+.label h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.arrow {
+  width: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 3%;
+  float: right;
+  margin-top: 4px;
+  display: inline-block;
+  color: #6d6d6d;
+}
+
 .arrow > i {
   float: right;
 }
